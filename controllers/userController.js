@@ -85,7 +85,7 @@ const userController = {
             //clear cookie
             response.clearCookie("token", {
                 path: '/',
-                domain: '',
+                domain: 'https://artvista-gallery-backend-6v41.onrender.com',
                 httpOnly: true,
                 sameSite: "None",
                 secure: true

@@ -14,7 +14,7 @@ const app = express();
 
 //middleware
 app.use(cors({
-    origin: ['', 'http://localhost:5173'],
+    origin: ['https://artvistagallery.netlify.app', 'http://localhost:5173'],
     credentials: true
 }));
 
